@@ -221,7 +221,7 @@ Resources:
   PublicSubnetA:
     Type: "AWS::EC2::Subnet"
     Properties:
-      AvailabilityZone: "ap-northeast-1a"
+      AvailabilityZone: "us-east-1a"
       CidrBlock: !Ref PublicSubnetACIDR
       VpcId: !Ref VPC
       Tags:
@@ -232,7 +232,7 @@ Resources:
   PublicSubnetC:
     Type: "AWS::EC2::Subnet"
     Properties:
-      AvailabilityZone: "ap-northeast-1c"
+      AvailabilityZone: "us-east-1c"
       CidrBlock: !Ref PublicSubnetCCIDR
       VpcId: !Ref VPC
       Tags:
